@@ -15,6 +15,8 @@
 		A4BBBA96208DB23C006A10B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BBBA95208DB23C006A10B1 /* main.m */; };
 		A4BBBAA0208DB23C006A10B1 /* LabelScrollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BBBA9F208DB23C006A10B1 /* LabelScrollerTests.m */; };
 		A4BBBAAB208DB23C006A10B1 /* LabelScrollerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BBBAAA208DB23C006A10B1 /* LabelScrollerUITests.m */; };
+		A4BBBABA208DB250006A10B1 /* HRAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BBBAB8208DB250006A10B1 /* HRAdView.m */; };
+		A4BBBABD208DB298006A10B1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BBBABC208DB298006A10B1 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		A4BBBAA6208DB23C006A10B1 /* LabelScrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelScrollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BBBAAA208DB23C006A10B1 /* LabelScrollerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelScrollerUITests.m; sourceTree = "<group>"; };
 		A4BBBAAC208DB23C006A10B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BBBAB8208DB250006A10B1 /* HRAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRAdView.m; sourceTree = "<group>"; };
+		A4BBBAB9208DB250006A10B1 /* HRAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRAdView.h; sourceTree = "<group>"; };
+		A4BBBABB208DB298006A10B1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A4BBBABC208DB298006A10B1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,14 @@
 		A4BBBA85208DB23C006A10B1 /* LabelScroller */ = {
 			isa = PBXGroup;
 			children = (
+				A4BBBAB9208DB250006A10B1 /* HRAdView.h */,
+				A4BBBAB8208DB250006A10B1 /* HRAdView.m */,
 				A4BBBA86208DB23C006A10B1 /* AppDelegate.h */,
 				A4BBBA87208DB23C006A10B1 /* AppDelegate.m */,
 				A4BBBA89208DB23C006A10B1 /* ViewController.h */,
 				A4BBBA8A208DB23C006A10B1 /* ViewController.m */,
+				A4BBBABB208DB298006A10B1 /* DetailViewController.h */,
+				A4BBBABC208DB298006A10B1 /* DetailViewController.m */,
 				A4BBBA8C208DB23C006A10B1 /* Main.storyboard */,
 				A4BBBA8F208DB23C006A10B1 /* Assets.xcassets */,
 				A4BBBA91208DB23C006A10B1 /* LaunchScreen.storyboard */,
@@ -265,9 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BBBABD208DB298006A10B1 /* DetailViewController.m in Sources */,
 				A4BBBA8B208DB23C006A10B1 /* ViewController.m in Sources */,
 				A4BBBA96208DB23C006A10B1 /* main.m in Sources */,
 				A4BBBA88208DB23C006A10B1 /* AppDelegate.m in Sources */,
+				A4BBBABA208DB250006A10B1 /* HRAdView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32MQWCT2QN;
 				INFOPLIST_FILE = LabelScroller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caoji.LabelScroller;
@@ -444,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32MQWCT2QN;
 				INFOPLIST_FILE = LabelScroller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caoji.LabelScroller;
